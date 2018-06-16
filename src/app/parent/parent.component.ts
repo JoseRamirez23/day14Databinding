@@ -9,5 +9,10 @@ export class ParentComponent {
 //this is the text that will be display once Input into child
  childTitle :string = "Text passed to child";
 
- 
+ adult:string='';
+
+  onNotify(notify:string){
+    this.adult = notify;
+
+  }
 }

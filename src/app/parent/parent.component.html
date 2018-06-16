@@ -2,4 +2,5 @@
 
 
 <!-- here you have calling the childTitle from child that was Input from parent and sent back here -->
-<child [title]="childTitle"></child>
+<child [title]="childTitle" (emitter)="onNotify($event)"></child>
+{{adult}}
